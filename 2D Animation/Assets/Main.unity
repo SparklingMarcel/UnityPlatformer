@@ -929,7 +929,7 @@ CircleCollider2D:
   m_GameObject: {fileID: 820667350}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: cc588b678ec9b284f827e5f1338e0122, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -945,7 +945,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 820667350}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: cc588b678ec9b284f827e5f1338e0122, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -1043,6 +1043,7 @@ GameObject:
   - component: {fileID: 1000398612}
   - component: {fileID: 1000398611}
   - component: {fileID: 1000398610}
+  - component: {fileID: 1000398613}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1116,6 +1117,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1000398613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000398609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0a12ede42cd88d49be2d223e60c13f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 820667352}
+  smoothSpeed: 0.125
 --- !u!1 &1007352554
 GameObject:
   m_ObjectHideFlags: 0
